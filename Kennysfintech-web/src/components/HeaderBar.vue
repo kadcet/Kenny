@@ -155,7 +155,8 @@
   background: url(/src/assets/img/hero-bg.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  
 }
 
 .hero-section::before {

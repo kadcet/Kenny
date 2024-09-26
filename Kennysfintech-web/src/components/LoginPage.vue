@@ -44,33 +44,16 @@ export default {
           <p>Uygulamaya Giriş Yapmak İçin Kullanıcı Adı Ve Şifrenizi Yazın</p>
 
           <div class="form-floating mb-3">
-            <input
-              type="text"
-              class="form-control"
-              id="userName"
-              placeholder="Kullanıcı Adı"
-              v-model="username"
-              required
-            />
+            <input type="text" class="form-control" id="userName" placeholder="Kullanıcı Adı" v-model="username"
+              required />
             <label for="userName"><i class="bi bi-envelope"></i> Kullanıcı Adı</label>
           </div>
           <div class="form-floating mb-3">
-            <input
-              type="password"
-              class="form-control"
-              id="password"
-              placeholder="Password"
-              v-model="password"
-              required
-            />
+            <input type="password" class="form-control" id="password" placeholder="Password" v-model="password"
+              required />
             <label for="password"><i class="bi bi-lock"></i> Şifre</label>
           </div>
-          <button
-            type="submit"
-            class="btn btn-primary w-100"
-            style="background-color: #6f42c1"
-            @click="login()"
-          >
+          <button type="submit" class="btn btn-primary w-100" style="background-color: #6f42c1" @click="login()">
             Giriş
           </button>
         </div>
@@ -83,12 +66,15 @@ export default {
 .card {
   border: none;
 }
+
 .form-floating label {
   padding-left: 2.5rem;
 }
+
 .form-floating .form-control {
   padding-left: 2.5rem;
 }
+
 .bi {
   position: static;
   left: 15px;
@@ -96,6 +82,7 @@ export default {
   font-size: 1.2rem;
   color: #6c757d;
 }
+
 .text-primary {
   color: #6f42c1 !important;
 }
