@@ -86,4 +86,5 @@ export default {
 .text-primary {
   color: #6f42c1 !important;
 }
+
 </style>
