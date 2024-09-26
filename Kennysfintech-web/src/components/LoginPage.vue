@@ -20,7 +20,7 @@ export default {
         .then((res) => {
           console.log(res.data)
           this.$router.push({ name: 'HeaderBar' })
-          localStorage.setItem(res.data.data.token)
+          localStorage.setItem('userToken',res.data.data.token)
         })
 
         .catch((err) => {
