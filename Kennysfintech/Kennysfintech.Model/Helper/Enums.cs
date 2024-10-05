@@ -8,6 +8,18 @@ using System.Threading.Tasks;
 namespace Kennysfintech.Model.Helper
 {
 
+    public enum IOC
+    {
+        Open=1, 
+        Closed=2
+    }
+
+    public enum DC
+    {
+        Debit=1,
+        Credit=2
+    }
+
     public enum RecordStatus
     {
         Active = 1,

@@ -49,6 +49,7 @@ builder.Services.AddControllers();
 builder.Services.AddSingleton<IAdminService,AdminService>();
 builder.Services.AddSingleton<IUserService,UserService>();
 builder.Services.AddSingleton<ITokenService,TokenService>();
+builder.Services.AddSingleton<ICompanyService,CompanyService>();
 builder.Services.AddSingleton<IRepositoryService, RepositoryMsSqlService>();
 
 
